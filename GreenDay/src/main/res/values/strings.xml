@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GreenDay</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="slider_1_description">Kid 1 Slider</string>
+    <string name="slider_2_description">Kid 2 Slider</string>
+    <string name="slider_3_description">Kid 3 Slider</string>
+    <string name="settings_button_description">Settings Button</string>
+    <string name="goals_button_description">Goals Button</string>
+    <string name="yellow_rules_button_description">Yellow Rules Button</string>
+    <string name="red_rules_button_description">Red Rules Button</string>
+    <string name="help_button_description">Help Button</string>
+
+</resources>

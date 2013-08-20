@@ -1,0 +1,107 @@
+
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            >
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:gravity="center_horizontal">
+
+            <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView1"
+                    android:adjustViewBounds="false"
+                    android:src="@drawable/gyr"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/slider_1_description"/>
+
+            <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:importantForAccessibility="no">
+            </View>
+
+            <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/gyr"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/slider_2_description"/>
+
+            <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:importantForAccessibility="no"
+                    android:focusableInTouchMode="true">
+            </View>
+
+            <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView3"
+                    android:src="@drawable/gyr"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/slider_3_description"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:gravity="center_horizontal"
+                >
+
+            <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageButtonSettings"
+                    android:cropToPadding="false"
+                    android:contentDescription="@string/settings_button_description"
+                    android:src="@android:drawable/ic_menu_preferences"/>
+
+            <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageButtonGoals"
+                    android:contentDescription="@string/goals_button_description"
+                    android:src="@android:drawable/ic_menu_view"/>
+
+            <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageButtonYellowRules"
+                    android:contentDescription="@string/yellow_rules_button_description"
+                    android:src="@android:drawable/ic_menu_view"/>
+
+            <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageButtonRedRules"
+                    android:contentDescription="@string/red_rules_button_description"
+                    android:src="@android:drawable/ic_menu_view"/>
+
+            <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageButtonHelp"
+                    android:contentDescription="@string/help_button_description"
+                    android:src="@android:drawable/ic_menu_help"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
